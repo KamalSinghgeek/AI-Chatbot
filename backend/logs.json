@@ -202,5 +202,59 @@
         "maxPrice": 10000
       }
     }
+  },
+  {
+    "timestamp": "2025-06-10T20:24:25.276Z",
+    "userQuery": "hi",
+    "aiResponse": "ERROR: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).",
+    "error": "Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' })."
+  },
+  {
+    "timestamp": "2025-06-10T20:24:30.643Z",
+    "userQuery": "gurugram",
+    "aiResponse": "ERROR: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).",
+    "error": "Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' })."
+  },
+  {
+    "timestamp": "2025-06-10T20:25:12.134Z",
+    "userQuery": "hi",
+    "aiResponse": "ERROR: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).",
+    "error": "Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' })."
+  },
+  {
+    "timestamp": "2025-06-10T20:25:25.207Z",
+    "userQuery": "hi",
+    "aiResponse": "ERROR: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).",
+    "error": "Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' })."
+  },
+  {
+    "timestamp": "2025-06-10T20:26:12.932Z",
+    "userQuery": "hi",
+    "aiResponse": "ERROR: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).",
+    "error": "Error: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' })."
+  },
+  {
+    "timestamp": "2025-06-10T20:27:33.108Z",
+    "userQuery": "hi",
+    "aiResponse": "Here are some properties in gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:27:40.418Z",
+    "userQuery": "delhi",
+    "aiResponse": "Sorry, no properties found in delhi under Rs. 50,00,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "delhi",
+        "maxPrice": 5000000
+      }
+    }
   }
 ]
