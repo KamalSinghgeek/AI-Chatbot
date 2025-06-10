@@ -256,5 +256,17 @@
         "maxPrice": 5000000
       }
     }
+  },
+  {
+    "timestamp": "2025-06-10T20:59:23.448Z",
+    "userQuery": "hi",
+    "aiResponse": "Here are some properties in gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "gurugram",
+        "maxPrice": 5000000
+      }
+    }
   }
 ]

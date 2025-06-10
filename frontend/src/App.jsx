@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import ChatMessage from "./ChatMessage.jsx";
+const BASE_URL = import.meta.env.VITE_API_BASE || "http://localhost:5000";
 
 export default function App() {
   const [messages, setMessages] = useState([
@@ -24,7 +25,7 @@ export default function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/chat", {
+      const res = await ffetch(`${BASE_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: trimmed }),
