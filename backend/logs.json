@@ -1,0 +1,206 @@
+[
+  {
+    "timestamp": "2025-06-10T19:54:02.141Z",
+    "userQuery": "Show me houses in Gurugram under 30 lacs",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 3,00,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 300000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:54:21.008Z",
+    "userQuery": "Any flats below 50 lakhs?",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:54:58.873Z",
+    "userQuery": "Apartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:56:43.517Z",
+    "userQuery": "Apartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:56:52.329Z",
+    "userQuery": "Any flats below 50 lakhs?\"",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:56:58.816Z",
+    "userQuery": "Show me houses in Gurugram under 30 lacsApartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 3,00,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 300000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:58:55.544Z",
+    "userQuery": "Show me houses in Gurugram under 30 lacsApartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 3,00,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 300000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:59:02.944Z",
+    "userQuery": "Any flats below 50 lakhs?\"",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:59:08.614Z",
+    "userQuery": "Apartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T19:59:20.832Z",
+    "userQuery": "delhi",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:00:46.080Z",
+    "userQuery": "Apartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:00:57.457Z",
+    "userQuery": "Gurugram under Rs. 3,00,000.",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:01:08.422Z",
+    "userQuery": "Apartments under 1 lakh",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:02:17.193Z",
+    "userQuery": "Gurugram under Rs. 3,00,000.",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:02:22.743Z",
+    "userQuery": "Apartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:02:35.653Z",
+    "userQuery": "delhi",
+    "aiResponse": "Here are some properties in Gurugram under Rs. 50,00,000:\n• Apartment (1200 sqft) - Rs. 45,00,000\n• Studio (900 sqft) - Rs. 30,00,000",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 5000000
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-10T20:05:06.615Z",
+    "userQuery": "Apartments under 1 crore",
+    "aiResponse": "Sorry, no properties found in Gurugram under Rs. 10,000.",
+    "function_call": {
+      "name": "filterProperties",
+      "args": {
+        "location": "Gurugram",
+        "maxPrice": 10000
+      }
+    }
+  }
+]
