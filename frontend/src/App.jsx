@@ -25,7 +25,7 @@ export default function App() {
     setLoading(true);
 
     try {
-      const res = await ffetch(`${BASE_URL}/api/chat`, {
+      const res = await fetch(`${BASE_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: trimmed }),
